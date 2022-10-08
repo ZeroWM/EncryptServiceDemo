@@ -21,5 +21,7 @@ public class EncryptServiceTest extends TestCase {
   public void test_encrypt_check_hash(){
     System.out.println(EncryptService.check("abc1234234234", "$2a$10$yEG9bFE5GIN3VteFzJUpKOhg8I.w7BtTE40iwrcfyP40B7VkDW9Ea"));
     System.out.println(EncryptService.check("abc1234234234", "$2a$12$u3kfcIdfzCFZnUc5CtAJW.dPsETH/EyIGHNCwZpey6PYUA9tETGqe"));
+    System.out.println(EncryptService.check("abc1234234234", "$2a$12$u3kfcIdfzCFZnUc5CtAJW.dPsETH/EyIGHwZpey6PYUA9tEsss"));
+
   }
 }
