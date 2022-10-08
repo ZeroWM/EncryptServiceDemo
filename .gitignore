@@ -1,0 +1,45 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+node_modules/
+.vscode/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+*.class
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+/bin/
+.jpb/
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+.env
+
+api/orgs
+api/servings
+api/users
+api/finance
+api/node_modules
+api/api
+
+.java-version
+
+graphql/schema.graphql
