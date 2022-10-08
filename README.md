@@ -17,14 +17,17 @@ jBCrypt is licensed under a ISC/BSD licence (see the LICENSE file for details) a
 The API is very simple:
 
 // Hash a password for the first time
+
 String hashed = BCrypt.hashpw(password, BCrypt.gensalt());
 
 // gensalt's log_rounds parameter determines the complexity
 // the work factor is 2**log_rounds, and the default is 10
+
 String hashed = BCrypt.hashpw(password, BCrypt.gensalt(12));
 
 // Check that an unencrypted password matches one that has
 // previously been hashed
+
 if (BCrypt.checkpw(candidate, hashed))
 	System.out.println("It matches");
 else
